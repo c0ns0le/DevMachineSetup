@@ -76,8 +76,8 @@ if(!(where.exe git)){
 	}
 }
 
-git config --global user.email jason@elegantcode.com
-git config --global user.name 'Jason Jarrett'
+git config --global user.email brandon.k.grace+github@gmail.com
+git config --global user.name 'c0ns0le'
 git config --global color.status.changed "cyan normal bold" 
 git config --global color.status.untracked "cyan normal bold"
 
@@ -92,7 +92,7 @@ if($chocolateyIds -match 'p4merge') {
 }
 
 # setup local powershell profile.
-iex ((new-object net.webclient).DownloadString('https://raw.github.com/staxmanade/DevMachineSetup/master/Bootstrap/initPsProfile.ps1'))
+iex ((new-object net.webclient).DownloadString('https://raw.github.com/c0ns0le/DevMachineSetup/master/Bootstrap/initPsProfile.ps1'))
 
 
 Install-WindowsUpdate -AcceptEulaInstall-WindowsUpdate -AcceptEula
