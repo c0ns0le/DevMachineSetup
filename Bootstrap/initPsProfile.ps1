@@ -1,5 +1,5 @@
 # Developer machine setup - run the below oneliner (in an elevated PS profile to setup a my development environment)
-#  iex ((new-object net.webclient).DownloadString('https://raw.github.com/staxmanade/DevMachineSetup/master/Bootstrap/initPsProfile.ps1'))
+#  iex ((new-object net.webclient).DownloadString('https://raw.github.com/c0ns0le/DevMachineSetup/master/Bootstrap/initPsProfile.ps1'))
 #
 
 ##### What is this script doing?
@@ -31,7 +31,7 @@ pushd $profileDir
 	}
 	else
 	{
-		git clone https://github.com/staxmanade/DevMachineSetup.git
+		git clone https://github.com/c0ns0le/DevMachineSetup.git
 	}
 
 	if(!(cat $profile | select-string 'DevMachineSetup\\initProfile.ps1'))
